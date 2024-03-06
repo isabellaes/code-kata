@@ -3,6 +3,7 @@ import ChangeText from "./components/changeText/ChangeText";
 import ColorBox from "./components/colorbox/ColorBox";
 import Header from "./components/header/Header";
 import List from "./components/list/List";
+import PrettyText from "./components/prettyText/PrettyText";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Addition />
       <ColorBox />
       <List />
+      <PrettyText />
     </div>
   );
 }
